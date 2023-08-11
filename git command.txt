@@ -1,0 +1,61 @@
+git --version
+git config --global user.name "Istiak-999"
+git config --global user.email "istiak35-2967@diu.edu.bd"
+git config --list                        (see info)
+git config --global user.name "Istiak"  (change name)
+git config user.name                    (show name)
+git config user.email                   (show mail)
+
+
+pwd
+mkdir notes
+cd notes
+ls -a
+touch day1.txt
+git init
+
+git status
+
+git add filename\git -A\git add .
+
+git diff   (show changes)
+
+git commit -m "data added"
+git log       (show commit history)
+
+git add . && git commit -m "data added"(satge area y add and local area y neya eksathe)
+
+
+
+git reset --soft HEAD^   (last commit ta cancel hoye staging obostay back kiorbe)
+git reset HEAD^          (uncommit hye unstage hye jabe)
+git reset --hard HEAD^   (past comit er situation e chole jabe)
+
+
+
+git checkout commitid/HEAD-Number(git reset use korle permanently deleete hye jay so risky.ejnno git checkout use korle
+head ta ager commit e chole jabe but porwer commit gula delete hbe na)
+
+
+git checkout master   (pisoner commit thk abr latest commit e back kiorte)
+
+checkout r change abr master diye back korle change show korbe na
+
+
+
+touch gitigonre   (ei file e je je extension add kore dbo segula stage e jabe na
+                    *.txt
+                     !story.txt
+                     .env
+                      temp/)
+ls -a
+
+git remote add origin link dte hbe http e repository r 
+
+
+
+ git clone https://github.com/Istiak-999/SE-313.git     (github thk local e project clone kora)
+
+
+git push -u origin main
+git pull 
